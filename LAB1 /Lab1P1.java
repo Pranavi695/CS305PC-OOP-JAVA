@@ -11,8 +11,8 @@ class Lab1P1{
             System.out.println(bb.BYTES);
             System.out.println("..........Integer...........");
             
-            short s = 15;
-            Short ss =s;     
+             short s = 15;
+             Short ss =s;     
             System.out.println(Short.MAX_VALUE);
             System.out.println(ss.MIN_VALUE);
             System.out.println(ss.SIZE);
@@ -21,8 +21,8 @@ class Lab1P1{
             System.out.println("..........Integer...........");
                  
             
-            long l = 200;
-            Long ll = l;
+             long l = 200;
+             Long ll = l;
             System.out.println(Long.MAX_VALUE);
             System.out.println(ll.MIN_VALUE);
             System.out.println(ll.SIZE);
@@ -30,7 +30,7 @@ class Lab1P1{
             System.out.println(ll.BYTES); 
             System.out.println("..........Integer...........");
                  
-            float f = 200;
+             float f = 200;
             Float ff = f;
             System.out.println(Float.MAX_VALUE);
             System.out.println(ff.MIN_VALUE);
@@ -39,8 +39,8 @@ class Lab1P1{
             System.out.println(ff.BYTES); 
             System.out.println("..........Integer...........");
                  
-            double d = 200;
-            ii = i;
+             double d = 200;
+             Double dd = d;
             System.out.println(Double.MAX_VALUE);
             System.out.println(dd.MIN_VALUE);
             System.out.println(dd.SIZE);
@@ -48,8 +48,8 @@ class Lab1P1{
             System.out.println(dd.BYTES); 
             System.out.println("..........Integer...........");
                  
-            int i = 200;
-            Integer ii = i;
+             int i = 200;
+             Integer ii = i;
             System.out.println(Integer.MAX_VALUE);
             System.out.println(ii.MIN_VALUE);
             System.out.println(ii.SIZE);
@@ -57,15 +57,7 @@ class Lab1P1{
             System.out.println(ii.BYTES); 
             System.out.println("..........Integer...........");
                  
-            boolean p = 200;
-            Boolean pp = p;
-            System.out.println(Boolean.MAX_VALUE);
-            System.out.println(pp.MIN_VALUE);
-            System.out.println(pp.SIZE);
-            System.out.println(pp.TYPE);
-            System.out.println(pp.BYTES); 
-            System.out.println("..........Integer...........");
-                 
+            
             
             
         
