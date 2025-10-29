@@ -7,6 +7,7 @@ class AnnoP{
 		System.out.println("AnnoP");
 	}
 }
+@MyAnno("MY ANNO DEF")
 class AnnoC extends AnnoP{
 	@Override
 	public void ovR(){
@@ -16,9 +17,13 @@ class AnnoC extends AnnoP{
 public class AnnoDemo{
 	@SuppressWarnings("deprecation")
 	public static void main(String...args){
+	Class<?> ct = AnnoC.class;
 		AnnoC ac = new AnnoC();
 		ac.ovR();
 		ac.depM();
+		MyAnno ma = MyAnno.class;
+System.out.println(ct.isAnnotationPresent(MyAnno.class));
+System.out.println(MyAnno.usage());
 	
 	}
 
